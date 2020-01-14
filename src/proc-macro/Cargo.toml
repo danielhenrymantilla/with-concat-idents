@@ -1,0 +1,9 @@
+[lib]
+proc-macro = true
+path = "mod.rs"
+
+[package]
+name = "with_concat_ident_proc-macro"
+version = "0.1.0"  # Same as ../../Cargo.toml#package.version
+authors = ["Daniel Henry-Mantilla <daniel.henry.mantilla@gmail.com>"]
+edition = "2018"
